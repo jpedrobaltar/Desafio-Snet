@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars</title>
+    <style type="text/css">
+        body {
+            text-align: center;
+            color: rgb(190, 190, 2);
+            background-color: black;
+            font-family: fantasy;
+            background-image: url(https://st3.depositphotos.com/15225220/18932/v/450/depositphotos_189328220-stock-illustration-perfect-starry-night-sky-background.jpg);
+            
+        }
+        input {
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-family: fantasy;
+            text-align: center;
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<h1><i>STAR WARS</i></h1>
+<label for="personagem">Buscar Personagem:</label>
+<input type="text" id="personagem" value="Yoda">
+<button onclick="procurarPersonagem()">Buscar</button>
+
+    <div id="personageminfo"></div>
+
+    <script src="starwarsjs.js"></script>
+</body>
+</html>
